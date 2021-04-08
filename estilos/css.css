@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+    width: 500px;
+    font-family: 'Roboto',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    padding-top: 10px;
+    display: flex;
+    flex-flow:row nowrap;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+    .menu div{
+        flex:1 1 auto;
+        text-align: center;
+    }
+
+
+    .menu a:hover{
+        color:grey;
+    }
+
+
+h1{
+    margin: 10px 0;
+    text-align: center;
+    text-shadow: 1px 1px 6px black;
+}
+
+h3{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.layout table{
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+
+.layout a:hover{
+    color: skyblue;
+}
+
+
+.layout td{
+    border: 1px solid black;
+}
+
+.requerido{
+    color: darkred;
+    font-weight: bold;
+}
